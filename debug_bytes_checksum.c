@@ -14,7 +14,7 @@
   */
 
 uint8_t Checksumcrc(uint8_t *aData, uint8_t StartIndex, uint8_t DataLength);
-int debug_bytes(uint8_t *data_ptr, size_t size)
+int debug_bytes(uint8_t *data_ptr, size_t size);
 
 void main()
 {
