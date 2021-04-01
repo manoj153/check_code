@@ -54,7 +54,7 @@ int debug_bytes(uint8_t *data_ptr, size_t size)
         else
         {
                 /*Bad params null ptr or wrong size*/
-                return 1;
+                return -1;
         }
 
         return 1;
